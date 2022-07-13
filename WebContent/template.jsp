@@ -23,7 +23,9 @@
 			<td width="15%">
 				<jsp:include page="left.jsp"></jsp:include>
 			</td>
-			<td><jsp:include page='<%=pagefile + ".jsp" %>'></jsp:include></td>
+			<td>
+				<jsp:include page='<%=pagefile + ".jsp" %>'></jsp:include>
+			</td>
 		</tr>
 		<tr>
 			<td height="40px" colspan="2">
